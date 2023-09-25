@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="index.html" class="logo" method="post">Educa.</a>
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="Search Courses.." required maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="profile.png" alt="">
+                <h1>Mj Malay</h1>
+                <span>Student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">Login</a>
+                    <a href="register.html" class="option-btn">Register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+<!-- Side bar section -->
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="profile.png" alt="">
+            <h1>Mj Malay</h1>
+            <span>Student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html"><i class='fa fa-home'></i><span>Home</span></a>
+            <a href="about.html"><i class='fas fa-address-card'></i><span>About Us</span></a>
+            <a href="courses.html"><i class='fa fa-graduation-cap'></i><span>Courses</span></a>
+            <a href="teachers.html"><i class='fas fa-chalkboard-teacher'></i><span>Teachers</span></a>
+            <a href="contact.html"><i class='fas fa-headset'></i><span>Contact Us</span></a>
+            
+        </nav>
+    </div>
+
+    <!-- Teachers Section -->
+    <section class="teachers">
+        <h1 class="heading">Experts Tutors</h1>
+        <form action="" method="post" class="search-tutor">
+            <input type="text" name="search-box" maxlength="100" placeholder="Search Tutor..." required>
+            <button type="submit" name="search-tutor" class="fas fa-search"></button>
+        </form>
+
+        <div class="box-container">
+            <div class="box offer">
+                <h3>Become a Tutor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, amet.</p>
+                <a href="register.html">Get Started</a>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="user4.png" alt="">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span>Developer</span>
+                    </div>
+                </div>
+                <p>playlists : <span>4</span></p>
+                <p>total videos : <span>50</span></p>
+                <p>total likes : <span>1000</span></p>
+                <a href="teacher-profile.html" class="inline-btn">View Profile</a>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="user2.png" alt="">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span>Developer</span>
+                    </div>
+                </div>
+                <p>playlists : <span>4</span></p>
+                <p>total videos : <span>50</span></p>
+                <p>total likes : <span>1000</span></p>
+                <a href="teacher-profile.html" class="inline-btn">View Profile</a>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="user3.png" alt="">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span>Developer</span>
+                    </div>
+                </div>
+                <p>playlists : <span>4</span></p>
+                <p>total videos : <span>50</span></p>
+                <p>total likes : <span>1000</span></p>
+                <a href="teacher-profile.html" class="inline-btn">View Profile</a>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="user1.png" alt="">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span>Developer</span>
+                    </div>
+                </div>
+                <p>playlists : <span>4</span></p>
+                <p>total videos : <span>50</span></p>
+                <p>total likes : <span>1000</span></p>
+                <a href="teacher-profile.html" class="inline-btn">View Profile</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        &copy; copyright @ 2023 by <span>MJ Malay</span> | all rights reserved |
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
